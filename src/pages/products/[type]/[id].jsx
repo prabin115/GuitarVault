@@ -23,7 +23,7 @@ const ProductPage = () => {
             alt=""
           />
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mr-10">
           <h1 className="mb-4 font-semibold text-3xl">₹{selectedProduct.price}</h1>
           <button
             onClick={()=> addToCart(selectedProduct)}
