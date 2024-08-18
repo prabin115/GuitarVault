@@ -23,7 +23,8 @@ const ProductCard = ({product}) => {
             <div className="px-6 py-4">
                 <div>
                     <h5 className="font text-gray-700 text-md">{product.brand}</h5>
-                    <p className="font-bold text-gray-900 text-md mb-2">{product.title}</p>
+                    <p className="font-bold text-gray-900 text-md">{product.title}</p>
+                    <p className=" text-gray-900 text-sm font-thin">{product.name}</p>
                     <p className="font-bold text-gray-600 text-sm">₹{product.price}</p>
                 </div>
             </div>
